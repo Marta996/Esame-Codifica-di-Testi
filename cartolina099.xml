@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "allDTD.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xml:id="cart99" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO -->
+                <title>[Bambini che bevono latte]</title>
+            </titleStmt>
+            <publicationStmt> <!-- elemento obbligaorio per fileDesc -->
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>  
+            </publicationStmt>
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul retro troviamo la stampa "CAVALLERIA RUSTICANA - Viva, viva il vino spumeggiante".</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title type="custom" resp="#ER" xml:id="titolo99">[Bambini che bevono latte]</title>
+                    <author ref="#GC">Giovanni Colilola</author>
+                    <date when="1917">1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_099_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buona</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="GC1">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation>[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT1">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">Città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1917-06-09">1917/06/09</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term type="descr1">Cartolina Artistica </term>
+                    <term type="descr2">Bambini che bevono latte</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina"  xml:lang="it">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte">
+                <figure xml:id="testo099">
+                    <figDesc>L'immagine presenta quattro bambini che bevono latte in strada. Nell' illustrazione è presente la firma dell'autore, A. Bertiglia.</figDesc>
+                    <head> Bambini </head>
+                    <note n="1"> Nell'immagine in basso a sinistra è presente la firma dell'autore dell'immagine: A. Bertiglia. </note>
+                </figure>
+                
+                <div prev="#part1" xml:id="part21" >
+                <signed>
+                    <lb facs="primariga_099F"/><persName ref="AB">A. Bertiglia</persName>
+                </signed>
+            </div>
+            </div>
+            
+            <div type="retro">
+                <div type="codice"> 
+                    <p>
+                        <num type="cardinal">
+                            <idno> 99 </idno>
+                        </num>
+                    </p>
+                </div>
+                <div type="message" xml:id="part11" next="#part2">
+                    <!-- data e luogo -->
+                    <opener facs="#luogo_data_099">
+                        <dateline>
+                            <placeName>Modena</placeName>
+                            <date when="19170609"> 9 Giugno 1917</date>
+                        </dateline>
+                        
+                        <lb facs="#primariga_099"/><salute>Gent<pc>.</pc> Sig<pc>.</pc></salute>
+                    </opener>
+                    <!--corpo della cartolina-->
+                    <p>
+                        <lb facs="#secondariga_099"/><persName ref="#OT">Oliva Tortura</persName>
+                        <lb facs="#terzariga_099"/>Via Girolamo Ronfi 58
+                        <lb facs="#quartariga_099"/>Ravenna
+                        <lb facs="#quintariga_099"/>Modena<pc>,</pc> il 9<pc>/</pc>6 <pc>-</pc> 1917<pc>.</pc>
+                        <lb facs="#sestariga_099"/><unclear reason="illeggible">Ardentissimi</unclear>
+                        <lb facs="#settimariga_099"/><persName ref="#GC"><forename>Giovanni</forename></persName>
+                    </p>
+                </div>
+            </div>
+          
+        </body>
+    </text>
+    <facsimile>
+    <!--retro-->
+        <surface xml:id="retro099">
+            <graphic url='7694-099R.jpg' width='1636px' height='1074px' />
+            <zone xml:id="luogo_data_099" ulx="591" uly="95" lrx="756" lry="949" />
+            <zone xml:id="primariga_099" ulx="752" uly="234" lrx="1320" lry="419" />
+            <zone xml:id="secondariga_099" ulx="760" uly="404" lrx="1507" lry="567" />
+            <zone xml:id="terzariga_099" ulx="758" uly="529" lrx="1601" lry="705" />
+            <zone xml:id="quartariga_099" ulx="884" uly="724" lrx="1591" lry="938" />
+            <zone xml:id="quintariga_099" ulx="591" uly="95" lrx="756" lry="949" />
+            <zone xml:id="sestariga_099" ulx="468" uly="95" lrx="579" lry="929" />
+            <zone xml:id="settimariga_099" ulx="123" uly="4" lrx="412" lry="972" />
+        </surface>
+        <!--fronte-->
+        <surface xml:id="fronte099">
+            <graphic url='7694-099F.jpg' width='1634px' height='1075px' />
+            <zone xml:id="primariga_099F" ulx="8" uly="844" lrx="160" lry="887" />
+        </surface>
+    </facsimile>
+</TEI>
