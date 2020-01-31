@@ -13,20 +13,20 @@ I moduli Tei utilizzati sono i seguenti:
 
 - Header;
 
-TextStructure;
+- TextStructure;
 
-NamesDates;
+- NamesDates;
 
-MsDescription;
+- MsDescription;
 
-Figures;
+- Figures;
 
-Transcr;
+- Transcr;
 
-Analysis;
+- Analysis;
 
-Dictionaries;
+- Dictionaries;
 
-Linking;
+- Linking;
 
-Certainty.
+- Certainty.
